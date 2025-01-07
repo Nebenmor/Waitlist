@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-amber-50">
-    <div class="min-h-screen px-6 py-3 flex flex-col gap-16">
+    <div class="min-h-screen px-6 py-3 flex flex-col gap-16 md:px-10 md:py-7">
         <header class="flex justify-between">
             <div class="flex items-center justify-center gap-2">
                 <img src="./Assets/Logo.svg" alt="">
-                <button class="bg-gradient-to-r from-orange-400 to-red-400 text-xs text-white px-2.5 py-1.5 rounded-2xl">Hosterr is hiring!</button>
+                <button class="bg-gradient-to-r from-orange-400 to-red-400 text-xs text-white px-2.5 py-1.5 rounded-2xl font-lato">Hosterr is hiring!</button>
             </div>
 
             <div>
@@ -22,10 +22,10 @@
 
         <main>
             <div class="flex justify-center items-center">
-                <img src="./Assets/Blue Shape.svg" alt="" class="h-64 -rotate-45">
-                <img src="./Assets/Pink Shape.svg" alt="" class="absolute h-64 -rotate-[30deg]">
-                <img src="./Assets/Purple Shape.svg" alt="" class="absolute h-64 -rotate-[15deg]">
-                <img src="./Assets/Hero Image (Model).png" alt="" class="absolute h-64">
+                <img src="./Assets/Blue Shape.svg" alt="" class="h-64 -rotate-45 md:h-72">
+                <img src="./Assets/Pink Shape.svg" alt="" class="absolute h-64 -rotate-[30deg] md:h-72"">
+                <img src="./Assets/Purple Shape.svg" alt="" class="absolute h-64 -rotate-[15deg] md:h-72"">
+                <img src="./Assets/Hero Image (Model).png" alt="" class="absolute h-64 md:h-72"">
             </div>
 
             <div class="space-y-4 mt-16">
@@ -35,11 +35,28 @@
                     <input type="email" placeholder="Enter e-mail address" class="rounded-md px-4 py-3 placeholder:text-gray-400">
                     <button class="bg-blue-500 rounded-md px-4 py-3 font-medium text-white font-lato">Join Waitlist</button>
                 </form>
+
+                <div class="flex gap-2">
+                    <img src="./Assets/Checkmark.svg" alt="">
+                    <p class="font-lato text-gray-400">No span ever. Unsubscribe anytime.</p>
+                </div>
             </div>
         </main>
 
-        <footer>
+        <footer class="flex flex-col gap-12">
+            <ul class="flex gap-6 font-lato text-gray-400" >
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+            </ul>
 
+            
         </footer>
     </div>
 </body>
